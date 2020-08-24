@@ -164,7 +164,7 @@ namespace Rover.Controllers
         private static string GetImageTags()
         {
             var imageTags = string.Empty;
-            foreach (var imageFile in Directory.GetFiles(LocalImageStorageDirectory))
+            foreach (var imageFile in Directory.GetFiles(LocalImageStorageDirectory, "*.jpg"))
             {
                 var fileNameSplit = imageFile.Split('.');
                 imageTags += $"<img src='{imageFile}' title='Rover: {fileNameSplit[2]}, EarthDate: {fileNameSplit[3]}, Camera: {fileNameSplit[4]} '>";
