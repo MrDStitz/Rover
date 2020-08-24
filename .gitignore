@@ -11,8 +11,7 @@
 *.suo
 *.user
 *.sln.docstates
-
-LocalImageStorage/
+*.jpg
 
 # Build results
 [Dd]ebug/
