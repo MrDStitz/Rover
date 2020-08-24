@@ -1,6 +1,6 @@
 # **Mars Rover Images Project**
 
-## This application uses NASA's public api to request mars rover images for a given date. The images are stored locally and displayed in the broswer output.
+## This application uses NASA's public api to request mars rover images for a given date. The images are stored locally and displayed in the browser output.
 
 ### The application is written in Microsoft C# on the .NET Core framework.
 
